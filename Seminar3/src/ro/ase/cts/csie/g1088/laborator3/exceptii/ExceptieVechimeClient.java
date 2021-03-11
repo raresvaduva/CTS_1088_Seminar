@@ -1,0 +1,4 @@
+package ro.ase.cts.csie.g1088.laborator3.exceptii;
+
+public class ExceptieVechimeClient extends Exception{
+}
