@@ -1,0 +1,14 @@
+CodeReview
+
+1. Conventii de Nume + valori hard-codate
+- numele clasei nu este ok; nu sugereaza scopul clasei
+- numele functiei nu este ok
+- nume parametri nu ok
+- nume argumente nu ok
+- variabila rezultat trebuie redenumita
+- variabila valoare trebuie redenumita
+- nume pachet invalid
+
+- elimina valorile predefinite
+
+- datele de intrare NU sunt validate nicaieri
