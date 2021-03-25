@@ -17,7 +17,6 @@ public class ConexiuneBD {
 
     //blocul anonim non static se executa la fiecare apel de constructor
     {
-        ;
     }
 
     private ConexiuneBD(String ip, String denumire) {

@@ -5,7 +5,7 @@ public enum TipProdus {
 
     private final float discount;
 
-    private TipProdus(float discount)
+    TipProdus(float discount)
     {
         this.discount = discount;
     }

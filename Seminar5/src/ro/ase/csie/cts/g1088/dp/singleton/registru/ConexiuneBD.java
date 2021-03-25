@@ -8,7 +8,7 @@ public class ConexiuneBD {
     String denumire;
     //varianta cu mai multi registrii singleton
     // gestioneaza mai multe conexiuni fara duplicate si fara sa folosim alte clase diferite
-    private static Hashtable<String,ConexiuneBD> conexiuni = new Hashtable<>();
+    private static final Hashtable<String,ConexiuneBD> conexiuni = new Hashtable<>();
 
     private ConexiuneBD(String ip, String denumire) {
         this.ip = ip;

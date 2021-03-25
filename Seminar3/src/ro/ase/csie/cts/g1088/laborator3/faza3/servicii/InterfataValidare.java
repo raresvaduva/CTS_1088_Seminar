@@ -5,6 +5,6 @@ import ro.ase.csie.cts.g1088.laborator3.exceptii.ExceptieVechimeClient;
 
 public interface InterfataValidare {
 
-    public void validarePret(float pretInitial) throws ExceptiePretInvalid;
-    public void validareVechimeClient(int vechimeClientInAni) throws ExceptieVechimeClient;
+    void validarePret(float pretInitial) throws ExceptiePretInvalid;
+    void validareVechimeClient(int vechimeClientInAni) throws ExceptieVechimeClient;
 }
