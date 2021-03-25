@@ -1,7 +1,7 @@
 package ro.ase.csie.cts.g1088.laborator3.faza2;
 
-import ro.ase.cts.csie.g1088.laborator3.exceptii.ExceptiePretInvalid;
-import ro.ase.cts.csie.g1088.laborator3.exceptii.ExceptieVechimeClient;
+import ro.ase.csie.cts.g1088.laborator3.exceptii.ExceptiePretInvalid;
+import ro.ase.csie.cts.g1088.laborator3.exceptii.ExceptieVechimeClient;
 
 public class Produs {
 
@@ -31,6 +31,7 @@ public class Produs {
     {
         return pretInitial - (discount * pretInitial);
     }
+
     public float getPretFinal(TipProdus tipProdus, float pretInitial, int vechimeClientInAni) throws ExceptiePretInvalid, ExceptieVechimeClient {
 
         validarePret(pretInitial);
