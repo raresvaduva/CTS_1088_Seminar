@@ -3,7 +3,7 @@ package ro.ase.csie.cts.g1088.dp.composite;
 public abstract class UnitateAbstractaJoc implements InterfataNPC {
 
     //interfata nodurilor frunza este mostenita
-    //definim interfata specifica nodurilor copil
+    //definim interfata specifica nodurilor compuse
 
     public void adaugaCaracter(UnitateAbstractaJoc unitate) {
         throw new UnsupportedOperationException();

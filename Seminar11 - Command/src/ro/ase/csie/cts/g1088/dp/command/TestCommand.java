@@ -6,8 +6,8 @@ public class TestCommand {
 
         ManagerTaskuri manager = new ManagerTaskuri();
 
-        manager.adaugaTask(new TaskAsincron(new ModulUpdate(), "versiune 10.1",5));
-        manager.adaugaTask(new TaskAsincron(new ModulAutoSave(), "Salvare automata nivel...",1));
+        manager.adaugaTask(new TaskAsincron(new ModulUpdate(), "10.1",5));
+        manager.adaugaTask(new TaskAsincron(new ModulAutoSave(), "finalizare nivel...",1));
 
         System.out.println("Jocul continua...");
 

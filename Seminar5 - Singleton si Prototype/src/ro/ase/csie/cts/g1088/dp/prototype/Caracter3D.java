@@ -48,7 +48,7 @@ public class Caracter3D implements Cloneable{
     protected Object clone() throws CloneNotSupportedException {
        // return super.clone();//clone ul din Object face shallow copy
 
-       // Caracter3D copie = new Caracter3D((this.fisierModel3D)); aici cream alt obiect, ceea ce vrem sa evitam
+       // Caracter3D copie = new Caracter3D((this.fisierModel3D)); aici creeam alt obiect, ceea ce vrem sa evitam
 
         // prototype design pattern:
         Caracter3D copie = new Caracter3D();

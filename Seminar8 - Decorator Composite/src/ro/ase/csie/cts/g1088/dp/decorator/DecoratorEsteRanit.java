@@ -19,5 +19,4 @@ public class DecoratorEsteRanit extends DecoratorErouAbstract{
         }
     }
 
-
 }

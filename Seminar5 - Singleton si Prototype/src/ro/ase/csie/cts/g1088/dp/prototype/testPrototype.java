@@ -5,8 +5,8 @@ public class testPrototype {
     public static void main(String[] args) throws CloneNotSupportedException {
 
         Caracter3D caracter1 = new Caracter3D("model1.3D");
-        //Caracter3D caracter2 = new Caracter3D("model1.3D");
-       // Caracter3D caracter3 = new Caracter3D("model1.3D");
+        // Caracter3D caracter2 = new Caracter3D("model1.3D");
+        // Caracter3D caracter3 = new Caracter3D("model1.3D");
 
 
         Caracter3D caracter2 = (Caracter3D) caracter1.clone();

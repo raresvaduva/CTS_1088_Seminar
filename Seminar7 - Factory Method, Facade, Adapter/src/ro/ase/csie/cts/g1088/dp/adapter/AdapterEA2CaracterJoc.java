@@ -7,7 +7,6 @@ public class AdapterEA2CaracterJoc extends CaracterJoc {
     InterfataCaracterEA caracterEA;
 
     public AdapterEA2CaracterJoc(InterfataCaracterEA caracterEA) {
-        super();
         this.caracterEA = caracterEA;
     }
 
