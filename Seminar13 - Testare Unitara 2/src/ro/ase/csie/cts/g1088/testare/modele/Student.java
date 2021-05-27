@@ -1,5 +1,6 @@
 package ro.ase.csie.cts.g1088.testare.modele;
 
+import org.junit.Test;
 import ro.ase.csie.cts.g1088.testare.exceptii.ExceptieNota;
 import ro.ase.csie.cts.g1088.testare.exceptii.ExceptieNume;
 import ro.ase.csie.cts.g1088.testare.exceptii.ExceptieVarsta;
@@ -35,7 +36,7 @@ public class Student {
 
 
     public void setNume(String nume) throws ExceptieNume {
-        if(nume.length() < MIN_LUNGIME_NUME) {
+        if (nume.length() < MIN_LUNGIME_NUME) {
             throw new ExceptieNume();
         }
         this.nume = nume;
@@ -79,7 +80,12 @@ public class Student {
     }
 
     public int getNotaMinima() {
-        int min = 0;
+
+        if(this.note == null || this.note.size() == 0)
+        {
+            return 0;
+        }
+        int min = this.note.get(0);
         for (int nota : this.note) {
             if (min > nota) {
                 min = nota;
